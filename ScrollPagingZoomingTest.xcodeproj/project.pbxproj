@@ -15,6 +15,9 @@
 		42CC8C69258858A60066CFA0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42CC8C67258858A60066CFA0 /* LaunchScreen.storyboard */; };
 		42CC8C74258858A60066CFA0 /* ScrollPagingZoomingTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42CC8C73258858A60066CFA0 /* ScrollPagingZoomingTestTests.swift */; };
 		42CC8C7F258858A70066CFA0 /* ScrollPagingZoomingTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42CC8C7E258858A70066CFA0 /* ScrollPagingZoomingTestUITests.swift */; };
+		42CC8C9925886A1B0066CFA0 /* dog.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 42CC8C9725886A1B0066CFA0 /* dog.jpg */; };
+		42CC8C9A25886A1B0066CFA0 /* cat.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 42CC8C9825886A1B0066CFA0 /* cat.jpg */; };
+		42CC8CA2258872930066CFA0 /* lion.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 42CC8CA1258872930066CFA0 /* lion.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		42CC8C7A258858A70066CFA0 /* ScrollPagingZoomingTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScrollPagingZoomingTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		42CC8C7E258858A70066CFA0 /* ScrollPagingZoomingTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollPagingZoomingTestUITests.swift; sourceTree = "<group>"; };
 		42CC8C80258858A70066CFA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42CC8C9725886A1B0066CFA0 /* dog.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dog.jpg; sourceTree = "<group>"; };
+		42CC8C9825886A1B0066CFA0 /* cat.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cat.jpg; sourceTree = "<group>"; };
+		42CC8CA1258872930066CFA0 /* lion.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = lion.jpg; path = ../../../../Downloads/lion.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +105,9 @@
 		42CC8C5B258858A40066CFA0 /* ScrollPagingZoomingTest */ = {
 			isa = PBXGroup;
 			children = (
+				42CC8CA1258872930066CFA0 /* lion.jpg */,
+				42CC8C9825886A1B0066CFA0 /* cat.jpg */,
+				42CC8C9725886A1B0066CFA0 /* dog.jpg */,
 				42CC8C5C258858A40066CFA0 /* AppDelegate.swift */,
 				42CC8C5E258858A40066CFA0 /* SceneDelegate.swift */,
 				42CC8C60258858A40066CFA0 /* ViewController.swift */,
@@ -231,7 +240,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42CC8C9A25886A1B0066CFA0 /* cat.jpg in Resources */,
+				42CC8CA2258872930066CFA0 /* lion.jpg in Resources */,
 				42CC8C69258858A60066CFA0 /* LaunchScreen.storyboard in Resources */,
+				42CC8C9925886A1B0066CFA0 /* dog.jpg in Resources */,
 				42CC8C66258858A60066CFA0 /* Assets.xcassets in Resources */,
 				42CC8C64258858A40066CFA0 /* Main.storyboard in Resources */,
 			);
@@ -439,6 +451,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7WVFJ3RBA7;
 				INFOPLIST_FILE = ScrollPagingZoomingTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -458,6 +471,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7WVFJ3RBA7;
 				INFOPLIST_FILE = ScrollPagingZoomingTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
